@@ -1,0 +1,10 @@
+---
+:name: first prod recipe
+:description: yay
+:cli_flags: "  -j esbuild -c tailwind --skip-action-mailbox --skip-jbuilder"
+:rails_version: 8.0.1
+:ruby_version: 3.4.1
+:ingredients:
+- :name: gem | amazing print
+  :position: 1
+  :configuration: {}
