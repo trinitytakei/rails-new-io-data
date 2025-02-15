@@ -1,0 +1,10 @@
+---
+:name: works-prod-0
+:description: Works!
+:cli_flags: "    --skip-action-mailer --skip-action-mailbox"
+:rails_version: 8.0.1
+:ruby_version: 3.4.1
+:ingredients:
+- :name: the real amazing print
+  :position: 1
+  :configuration: {}
