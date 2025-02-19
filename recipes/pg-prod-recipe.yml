@@ -1,0 +1,7 @@
+---
+:name: pg-prod-recipe
+:description: frf
+:cli_flags: " -d postgresql   "
+:rails_version: 8.0.1
+:ruby_version: 3.4.1
+:ingredients: []
