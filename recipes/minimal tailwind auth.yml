@@ -1,0 +1,16 @@
+---
+:name: minimal tailwind auth
+:description: "--skip-the-shit, built in auth, tailwind + tailwindcss-forms"
+:cli_flags: "  -j esbuild -c tailwind --skip-test --skip-system-test --skip-docker
+  --skip-kamal --skip-thruster --skip-ci --skip-action-mailer --skip-action-mailbox
+  --skip-action-text --skip-active-storage --skip-action-cable --skip-active-job --skip-solid
+  --skip-rubocop --skip-brakeman --skip-devcontainer --skip-jbuilder --skip-bootsnap"
+:rails_version: 8.0.1
+:ruby_version: 3.4.1
+:ingredients:
+- :name: Built-in Rails 8 Authentication
+  :position: 1
+  :configuration: {}
+- :name: Tailwindcss forms
+  :position: 2
+  :configuration: {}
