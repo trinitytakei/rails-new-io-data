@@ -1,0 +1,25 @@
+---
+:name: May26 kitchen sink
+:description: New app with whatever is available on May26 2025
+:cli_flags: "  -j esbuild -c tailwind "
+:rails_version: 8.0.2
+:ruby_version: 3.4.1
+:ingredients:
+- :name: Built-in Rails Authentication
+  :position: 1
+  :configuration: {}
+- :name: Registration
+  :position: 2
+  :configuration: {}
+- :name: Rails Authentication Form Beautifier
+  :position: 3
+  :configuration: {}
+- :name: Apply form builder
+  :position: 4
+  :configuration: {}
+- :name: Registration view
+  :position: 5
+  :configuration: {}
+- :name: Simple Homepage
+  :position: 6
+  :configuration: {}
